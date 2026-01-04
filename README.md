@@ -31,11 +31,12 @@ The `World` node manages the environment, lighting, terrain, and main menu UI.
   - `NewGameButton`
   - `LoadButton`
   - `QuitButton`
+<img width="319" height="159" alt="image" src="https://github.com/user-attachments/assets/8798c9cb-7fc0-406e-8248-d339e3486e30" />
+
 
 ### Camera
 - `CameraPivot` – Rotates the camera around the map in the main menu
   - `Camera3D`
-
 ---
 
 ## 🧍 Player
@@ -84,6 +85,7 @@ Each block type is implemented as a `StaticBody3D` with collision support.
 #### WoodPlanks
 - `StaticBody3D`
   - `CollisionShape3D`
+<img width="248" height="73" alt="image" src="https://github.com/user-attachments/assets/01dc7b50-7015-4f19-a6c0-7e092da5b1fc" />
 
 ---
 
@@ -91,6 +93,7 @@ Each block type is implemented as a `StaticBody3D` with collision support.
 - Built entirely using **GDScript**
 - Designed for **block-based world interaction**
 - Easily extendable with new block types, crafting systems, or terrain generation
+<img width="775" height="449" alt="image" src="https://github.com/user-attachments/assets/d1c3ddc2-53f2-4483-a219-ec62f14c8d36" />
 
 ---
 
