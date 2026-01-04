@@ -20,6 +20,7 @@ GDScript project for a Minecraft-style game built in Godot.
 - MeshInstance3D
 - Camera3D  
   - RayCast3D (used to handle the player POV and place blocks in any direction)
+- Hotbar  
 ---------
 ### Blocks
 ---------
