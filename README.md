@@ -1,49 +1,52 @@
-# Godot-minecraft
-gdscript for Godot Minecraft 
+# Godot Minecraft
 
-#Three Main Nodes:
+GDScript project for a Minecraft-style game built in Godot.
 
-#World
+---
 
--WorldEnviroment
--DirectionalLight3D
--Player
--GridMap
--MeshInstance3D (used for blocks)
+## Three Main Nodes
+---------
+### World
+---------
+- WorldEnvironment
+- DirectionalLight3D
+- Player
+- GridMap
+- MeshInstance3D (used for blocks)
+---------
+### Player
+---------
+- CollisionShape3D
+- MeshInstance3D
+- Camera3D  
+  - RayCast3D (used to handle the player POV and place blocks in any direction)
+---------
+### Blocks
+---------
+#### Bricks_Grey
+- StaticBody3D  
+  - CollisionShape3D
 
-#Player
+#### Dirt
+- StaticBody3D  
+  - CollisionShape3D
 
--CollisionShape3D
--MeshInstance3D
--Camera3D
-  -RayCast3D (used to handle the player and its POV to place blocks in any direction)
+#### Leaves
+- StaticBody3D  
+  - CollisionShape3D
 
-#Blocks
+#### Grass
+- StaticBody3D  
+  - CollisionShape3D
 
--Bricks_Grey
-  -StaticBody3D
-    -CollisionShape3D
- 
--Dirt
-  -StaticBody3D
-    -CollisionShape3D
-    
--Leaves
-  -StaticBody3D
-    -CollisionShape3D
-    
--Grass
-  -StaticBody3D
-    -CollisionShape3D
-    
--Stone
-  -StaticBody3D
-    -CollisionShape3D
-    
--Wood
-  -StaticBody3D
-    -CollisionShape3D
-    
--WoodPlanks
-  -StaticBody3D
-    -CollisionShape3D
+#### Stone
+- StaticBody3D  
+  - CollisionShape3D
+
+#### Wood
+- StaticBody3D  
+  - CollisionShape3D
+
+#### WoodPlanks
+- StaticBody3D  
+  - CollisionShape3D
